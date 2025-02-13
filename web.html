@@ -1,11 +1,91 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> <!-- logo -->
+    <header>
+        <nav> 
+            <div class="logo">
+                <h1><CENTER>Tienda Online</CENTER></h1>
+            </div>
+            <ul>
+                <CENTER><a href="#home">Inicio</a></CENTER>
+                <CENTER><a href="#productos">Productos</a></CENTER>
+                <CENTER><a href="#contacto">Contacto</a></CENTER>
+                <CENTER><a href="#video">Video Promocional</a></CENTER>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2><CENTER>Bienvenidos a la Tienda Online</CENTER></h2>
+            <p><CENTER>Los mejores productos a los mejores precios</CENTER></p>
+        </div>
+    </section>
+
+    <section id="productos">
+        <CENTER><h2>Nuestros Productos</h2></CENTER>
+        
+        <!-- Categoría de Celulares -->
+        <CENTER><h3>Celulares</h3></CENTER>
+        <div class="productos-grid">
+            
+            <!-- Producto iPhone 13 -->
+        <CENTER><div class="producto"></CENTER>
+        <CENTER><h3>iPhone 13</h3></CENTER>
+        <CENTER><p>$30,000</p></CENTER>
+     <CENTER><img src="https://http2.mlstatic.com/D_NQ_NP_873253-MLA47782477965_102021-O.webp" alt="iPhone 13"></CENTER>
+            </div>
+            
+            <!-- Producto Samsung Galaxy S21 -->
+        <CENTER><div class="producto"></CENTER>
+        <CENTER><h3>Samsung Galaxy S21</h3></CENTER>
+         <CENTER><p>$25,000</p></CENTER>
+     <CENTER><img src="https://i5.walmartimages.com/asr/b7fad03d-686d-4c68-9d65-f5818c974d30.c769238d8fedde41038373a9e8154998.png?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Samsung Galaxy S21">
+            </div></CENTER>
+            
+            <!-- Producto Google Pixel 6 -->
+        <CENTER><div class="producto"></CENTER>
+        <CENTER><h3>Google Pixel 6</h3></CENTER>
+     <CENTER><p>$22,000</p><CENTER>
+     <CENTER><img src="https://i5.walmartimages.com/asr/17005cd0-3ebc-47f1-952b-ab30e2678aea.8bb2f9f0f91668136d8b932c6241242d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="Google Pixel 6">
+            </div></CENTER>
+            
+        </div>
+    </section>
     
+    <!-- video -->
+<CENTER><section id="video"></CENTER>
+<CENTER><h2>Video Promocional</h2></CENTER>
+<CENTER><div class="video-container"><CENTER>
+<CENTER><iframe width="560" height="315" src="https://www.youtube.com/embed/h0cf2z3lrz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div></CENTER>
+    <CENTER></section></CENTER>
+    
+    <!-- Contactarnos -->
+<CENTER><section id="contacto"></CENTER>
+<CENTER><h2>Contacto</h2></CENTER>
+<CENTER><form action="#"></CENTER>
+<CENTER><label for="nombre">Nombre:</label></CENTER>
+<CENTER><input type="text" id="nombre" name="nombre" required></CENTER>
+            
+<CENTER><label for="email">Correo electrónico:</label></CENTER>
+<CENTER><input type="email" id="email" name="email" required></CENTER>
+            
+        <CENTER><label for="mensaje">Mensaje:</label></CENTER>
+        <CENTER><textarea id="mensaje" name="mensaje" rows="4" required></textarea></CENTER>
+            
+    <CENTER><button type="submit">Enviar</button></CENTER>
+        </form>
+    </section>
+
+    <footer>
+    <CENTER><p>&copy; 2025 Tienda Online. Todos los derechos reservados.</p></CENTER>
+    </footer>
 </body>
 </html>
